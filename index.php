@@ -4,7 +4,6 @@
     !-->
 <?php require_once 'inc/top.php'; ?>
 
-<?php require_once 'inc/bottom.php'; ?>
 <?php
 $folder = 'uploads';
 $handle = opendir($folder);
@@ -31,3 +30,5 @@ if ($handle) {
     }
 }
 ?>
+
+<?php require_once 'inc/bottom.php'; ?>

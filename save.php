@@ -2,11 +2,7 @@
 include 'lib/ImageResize.php';
 
 use \Gumlet\ImageResize;
-
-include 'lib/ImageResizeException.php';
-use \Gumlet\ImageResizeException;
 ?>
-
 <?php require_once 'inc/top.php'; ?>
 
 <?php
@@ -39,4 +35,5 @@ if ($_FILES['file']['error'] === UPLOAD_ERR_OK) {
 }
 ?>
 <a href='index.php'>Selaa kuvia</a>
+
 <?php require_once 'inc/bottom.php'; ?>
